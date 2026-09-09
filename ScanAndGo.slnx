@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ScanAndGo.API/ScanAndGo.API.csproj" />
+    <Project Path="src/ScanAndGo.Application/ScanAndGo.Application.csproj" />
+    <Project Path="src/ScanAndGo.Domain/ScanAndGo.Domain.csproj" />
+    <Project Path="src/ScanAndGo.Infrastructure/ScanAndGo.Infrastructure.csproj" />
+    <Project Path="src/ScanAndGo.Migrator/ScanAndGo.Migrator.csproj" />
+  </Folder>
+</Solution>

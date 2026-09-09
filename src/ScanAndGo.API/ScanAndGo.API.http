@@ -1,0 +1,6 @@
+@ScanAndGo.API_HostAddress = http://localhost:5110
+
+GET {{ScanAndGo.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

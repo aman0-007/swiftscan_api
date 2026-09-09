@@ -1,0 +1,11 @@
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/bin/Debug/net10.0/ScanAndGo.Domain.deps.json
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/bin/Debug/net10.0/ScanAndGo.Domain.dll
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/bin/Debug/net10.0/ScanAndGo.Domain.pdb
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ScanAndGo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ScanAndGo.Domain.AssemblyInfoInputs.cache
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ScanAndGo.Domain.AssemblyInfo.cs
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ScanAndGo.Domain.csproj.CoreCompileInputs.cache
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ScanAndGo.Domain.dll
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/refint/ScanAndGo.Domain.dll
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ScanAndGo.Domain.pdb
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ref/ScanAndGo.Domain.dll
