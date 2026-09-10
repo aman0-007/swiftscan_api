@@ -13,3 +13,4 @@
 /root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Application/obj/Debug/net10.0/refint/ScanAndGo.Application.dll
 /root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Application/obj/Debug/net10.0/ScanAndGo.Application.pdb
 /root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Application/obj/Debug/net10.0/ref/ScanAndGo.Application.dll
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Application/obj/Debug/net10.0/ScanAndGo.Application.sourcelink.json

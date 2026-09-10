@@ -9,3 +9,4 @@
 /root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/refint/ScanAndGo.Domain.dll
 /root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ScanAndGo.Domain.pdb
 /root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ref/ScanAndGo.Domain.dll
+/root/Projects/ScanAndGo_Workspace/src/ScanAndGo.Domain/obj/Debug/net10.0/ScanAndGo.Domain.sourcelink.json

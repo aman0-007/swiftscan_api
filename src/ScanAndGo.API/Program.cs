@@ -48,11 +48,11 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// if (app.Environment.IsDevelopment())
+// {
+app.UseSwagger();
+app.UseSwaggerUI();
+// }
 
 app.UseCors("AllowAll"); // Must be before Auth
 
