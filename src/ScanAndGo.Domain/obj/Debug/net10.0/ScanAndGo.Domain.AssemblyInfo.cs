@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScanAndGo.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aee9d00d3dad00bbd3af75602cfc99b06ff23c4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1ea287d76874d81b59f404417217355ddfb7073")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScanAndGo.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScanAndGo.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

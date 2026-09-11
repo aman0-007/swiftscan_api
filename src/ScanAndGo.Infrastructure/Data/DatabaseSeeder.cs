@@ -1,5 +1,6 @@
 using System.Data;
 using Dapper;
+using BCrypt.Net;
 
 namespace ScanAndGo.Infrastructure.Data
 {
@@ -17,7 +18,7 @@ namespace ScanAndGo.Infrastructure.Data
             Console.WriteLine("Seeding database with realistic dummy data...");
             using IDbConnection connection = _connectionFactory.CreateConnection();
 
-            // 1. Seed Users
+            // 1. Seed Users (FIXED: Now using actual BCrypt hashes)
             string insertUserSql = @"
                 INSERT INTO Users (Email, PasswordHash, Role) 
                 VALUES (@Email, @PasswordHash, @Role) 
@@ -25,8 +26,11 @@ namespace ScanAndGo.Infrastructure.Data
 
             var users = new[]
             {
-                new { Email = "admin@scanandgo.com", PasswordHash = "hashed_pw_admin", Role = "Admin" },
-                new { Email = "shopper@scanandgo.com", PasswordHash = "hashed_pw_shopper", Role = "Shopper" }
+                // Password for admin: "admin123"
+                new { Email = "admin@scanandgo.com", PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin123"), Role = "Admin" },
+                
+                // Password for shopper: "shopper123"
+                new { Email = "shopper@scanandgo.com", PasswordHash = BCrypt.Net.BCrypt.HashPassword("shopper123"), Role = "Shopper" }
             };
             connection.Execute(insertUserSql, users);
 

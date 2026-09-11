@@ -31,6 +31,10 @@ namespace ScanAndGo.Infrastructure.Repositories
 
         public async Task<int> CreateAsync(User user)
         {
+            if (string.IsNullOrWhiteSpace(user.Role))
+            {
+                user.Role = "Shopper";
+            }
             using IDbConnection db = _connectionFactory.CreateConnection();
             string sql = @"
                 INSERT INTO Users (Email, PasswordHash, Role) 
